@@ -38,7 +38,7 @@ function pesquisar() {
         for (let verso of versos) {
             let nv = (verso.numero < 10) ? "0" : "";
             nv += verso.numero;
-            if (verso.texto.includes(campoPesquisa)) {
+            if (verso.texto.toLowerCase().includes(campoPesquisa)) {
                 if (evento.length) {
                     eventoSaida = "";
                     for (let ev of evento) {
@@ -69,15 +69,17 @@ function pesquisar() {
   
     // Atribui o HTML gerado à seção de resultados
     section.innerHTML = resultados;
-    campoOcorrencias.innerHTML = `<p>${ocorrencias} Ocorrências</p>`;
+    campoOcorrencias.innerHTML = `<p>${ocorrencias} Ocorrência${(ocorrencias < 2) ? "":"s"}</p>`;
 }
 
 function limpar() {
     // Obtém a seção onde os resultados serão exibidos
     let section = document.getElementById("resultados-pesquisa");
     let campoOcorrencias = document.getElementById("campo-ocorrencias");
+    let campoPesquisa = document.getElementById("campo-pesquisa");
     section.innerHTML = "";
-    campoOcorrencias.innerHTML = `<p>0 Ocorrências</p>`;
+    campoOcorrencias.innerHTML = `<p>0 Ocorrência</p>`;
+    campoPesquisa.value = "";
 }
 
 // Exemplo de uso:
@@ -153,5 +155,5 @@ function criarObjetoCapitulo() {
     pre.innerHTML = JSON.stringify(capitulo);
 
 }
-criarObjetoCapitulo();
+//criarObjetoCapitulo();
 
