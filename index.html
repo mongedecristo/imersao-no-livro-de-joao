@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Imersão no Livro de João</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Imersão no Livro de João
+        </h1>
+        <h6 id="campo-ocorrencias"></h6>
+    </header>
+    <main>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+        </section>
+        <section>
+            <input type="text" id="campo-pesquisa" placeholder="Pesquise seu conteúdo, versos e capítulos">
+            <span id="botoes">
+                <button onclick="pesquisar()">Pesquisar</button>
+                <button onclick="limpar()">Limpar</button>
+            </span>
+        </section>
+        <!-- <span style="word-wrap: break-word; display: block; height: 1000px;" id="pre"></span> -->
+    </main>
+    <footer>
+        <p>
+            2024 - Busca Inteligente no Livro de João da Bíblia <span class="ntlh">NTLH</span> - Por <a href="mailto: jason.c.schmidt@gmail.com">Jason C. Schmidt</a>.
+        </p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="script.js"></script>
+    <script>limpar();</script>
+</body>
+</html>
