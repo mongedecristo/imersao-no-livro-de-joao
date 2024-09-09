@@ -537,7 +537,7 @@ const joao = {
         {
           numero: 28,
           texto:
-            'Vocês são testemunhas de que eu disse: "Eu não sou o Messias, mas fui enviado adiante dele."',
+            'Vocês são testemunhas de que eu disse: "Eu não sou o Messias, mas fui enviado adiante dele."'
         },
         {
           numero: 29,
@@ -768,7 +768,7 @@ const joao = {
         },
         {
           numero: 37,
-          texto: 'Porque é verdade o que dizem: "Um semeia, e outro colhe."',
+          texto: 'Porque é verdade o que dizem: "Um semeia, e outro colhe."'
         },
         {
           numero: 38,
@@ -778,7 +778,7 @@ const joao = {
         {
           numero: 39,
           texto:
-            'Muitos samaritanos daquela cidade creram em Jesus porque a mulher tinha dito: "Ele me disse tudo o que eu tenho feito."',
+            'Muitos samaritanos daquela cidade creram em Jesus porque a mulher tinha dito: "Ele me disse tudo o que eu tenho feito."'
         },
         {
           numero: 40,
@@ -871,7 +871,7 @@ const joao = {
         {
           numero: 2,
           texto:
-            'Ali existe um tanque que tem cinco entradas e que fica perto do Portão das Ovelhas. Em hebraico esse tanque se chama "Betezata".',
+            'Ali existe um tanque que tem cinco entradas e que fica perto do Portão das Ovelhas. Em hebraico esse tanque se chama "Betezata".'
         },
         {
           numero: 3,
@@ -1254,7 +1254,7 @@ const joao = {
         {
           numero: 31,
           texto:
-            'Os nossos antepassados comeram o maná no deserto, como dizem as Escrituras Sagradas: "Do céu ele deu pão para eles comerem."',
+            'Os nossos antepassados comeram o maná no deserto, como dizem as Escrituras Sagradas: "Do céu ele deu pão para eles comerem."'
         },
         {
           numero: 32,
@@ -1323,7 +1323,7 @@ const joao = {
         {
           numero: 45,
           texto:
-            'Nos Profetas está escrito: "Todos serão ensinados por Deus." E todos os que ouvem o Pai e aprendem com ele vêm a mim.',
+            'Nos Profetas está escrito: "Todos serão ensinados por Deus." E todos os que ouvem o Pai e aprendem com ele vêm a mim.'
         },
         {
           numero: 46,
@@ -1486,7 +1486,10 @@ const joao = {
           texto:
             "Pois quem quer ser bem-conhecido não deve esconder o que está fazendo. Já que você faz essas coisas, deixe que todos o conheçam."
         },
-        { numero: 5, texto: "Até os irmãos de Jesus não criam nele." },
+        {
+            numero: 5,
+            texto: "Até os irmãos de Jesus não criam nele."
+        },
         {
           numero: 6,
           texto:
@@ -1502,7 +1505,10 @@ const joao = {
           texto:
             "Vão vocês à festa, mas eu não vou porque a minha hora ainda não chegou."
         },
-        { numero: 9, texto: "Jesus disse isso e ficou na Galileia." },
+        {
+            numero: 9,
+            texto: "Jesus disse isso e ficou na Galileia."
+        },
         {
           numero: 10,
           texto:
@@ -1666,7 +1672,10 @@ const joao = {
           texto:
             "As Escrituras Sagradas dizem que o Messias será descendente de Davi e vai nascer em Belém, onde Davi morou."
         },
-        { numero: 43, texto: "Então o povo se dividiu por causa dele." },
+        {
+            numero: 43,
+            texto: "Então o povo se dividiu por causa dele."
+        },
         {
           numero: 44,
           texto: "Alguns queriam prender Jesus, mas ninguém fez isso."
@@ -1839,7 +1848,7 @@ const joao = {
         {
           numero: 24,
           texto:
-            'Por isso eu disse que vocês vão morrer sem o perdão dos seus pecados. De fato, morrerão sem o perdão dos seus pecados se não crerem que "Eu Sou Quem Sou".',
+            'Por isso eu disse que vocês vão morrer sem o perdão dos seus pecados. De fato, morrerão sem o perdão dos seus pecados se não crerem que "Eu Sou Quem Sou".'
         },
         {
           numero: 25,
@@ -1859,14 +1868,17 @@ const joao = {
         {
           numero: 28,
           texto:
-            'Por isso Jesus disse: — Quando vocês levantarem o Filho do Homem, saberão que "Eu Sou Quem Sou". E saberão também que não faço nada por minha conta, mas falo somente o que o meu Pai me ensinou.',
+            'Por isso Jesus disse: — Quando vocês levantarem o Filho do Homem, saberão que "Eu Sou Quem Sou". E saberão também que não faço nada por minha conta, mas falo somente o que o meu Pai me ensinou.'
         },
         {
           numero: 29,
           texto:
             "Quem me enviou está comigo e não me deixou sozinho, pois faço sempre o que lhe agrada."
         },
-        { numero: 30, texto: "Quando Jesus disse isso, muitos creram nele." },
+        {
+            numero: 30,
+            texto: "Quando Jesus disse isso, muitos creram nele."
+        },
         {
           numero: 31,
           texto:
@@ -1972,7 +1984,7 @@ const joao = {
         {
           numero: 52,
           texto:
-            'Então eles disseram: — Agora temos a certeza de que você está dominado por um demônio! Abraão e todos os profetas morreram, mas você diz: "Quem obedecer aos meus ensinamentos não morrerá nunca."',
+            'Então eles disseram: — Agora temos a certeza de que você está dominado por um demônio! Abraão e todos os profetas morreram, mas você diz: "Quem obedecer aos meus ensinamentos não morrerá nunca."'
         },
         {
           numero: 53,
@@ -2002,7 +2014,7 @@ const joao = {
         {
           numero: 58,
           texto:
-            '— Eu afirmo a vocês que isto é verdade: antes de Abraão nascer, "Eu Sou"! — respondeu Jesus.',
+            '— Eu afirmo a vocês que isto é verdade: antes de Abraão nascer, "Eu Sou"! — respondeu Jesus.'
         },
         {
           numero: 59,
@@ -2131,7 +2143,7 @@ const joao = {
         {
           numero: 23,
           texto:
-            'Foi por isso que os pais disseram: "Ele é maior de idade; perguntem a ele."',
+            'Foi por isso que os pais disseram: "Ele é maior de idade; perguntem a ele."'
         },
         {
           numero: 24,

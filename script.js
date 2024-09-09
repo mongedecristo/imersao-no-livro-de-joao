@@ -43,11 +43,11 @@ function pesquisar() {
             let nv = (verso.numero < 10) ? "0" : "";
             nv += verso.numero;
             if (verso.texto.toLowerCase().includes(campoPesquisa)) {
+                eventoSaida = "";
                 if (evento.length) {
-                    eventoSaida = "";
                     for (let ev of evento) {
                         eventoSaida += "<p class=\"descricao-meta-evento\">" +
-                            "Evento importante: " + ev + "</p>";
+                        "Evento importante: " + ev + "</p>";
                     }
                 }
                 ocorrencias++;
