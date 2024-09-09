@@ -95,12 +95,18 @@ output {
 }
 
 .item-resultado a {
+    font-size: 0.9rem;
     text-decoration: none;
     color: #30475E;
 }
 
 .item-resultado a:hover {
     text-decoration: underline;
+}
+
+.item-resultado .url {
+    font-size: 0.9rem;
+    color: #30475E;
 }
 
 .descricao-meta {
